@@ -1,7 +1,8 @@
-package com.alvarengadev.photographers
+package com.alvarengadev.photographers.view.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.alvarengadev.photographers.R
 
 class MainActivity : AppCompatActivity() {
 
