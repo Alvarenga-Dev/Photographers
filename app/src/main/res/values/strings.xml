@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Photographers</string>
 
-    <string name="api_key">16737815-7ccedd618e67170ff71e58d3c</string>
+    <string name="photos_description">Description Image</string>
+    <string name="ic_like_description">icon likes</string>
+    <string name="ic_comment_description">icon comments</string>
+    <string name="ic_save_photo_description">icon save photo</string>
 </resources>
