@@ -1,5 +1,6 @@
 package com.alvarengadev.photographers.model.network
 
+import com.alvarengadev.photographers.model.network.photos.PhotoService
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
@@ -10,8 +11,5 @@ class RetrofitInitializer {
         .addConverterFactory(MoshiConverterFactory.create())
         .build()
 
-    fun photoService(){
-
-    }
-
+    fun photoService() : PhotoService = retrofit.create(PhotoService::class.java)
 }
