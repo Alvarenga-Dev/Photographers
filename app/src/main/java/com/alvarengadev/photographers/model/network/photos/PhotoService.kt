@@ -6,6 +6,6 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface PhotoService {
-    @GET("https://pixabay.com/api/")
+    @GET("api/")
     fun list(@Query("key") apiKey: String) : Call<PhotosResult>
 }
